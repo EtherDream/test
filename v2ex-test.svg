@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600px" height="300px">
+  <switch>
+    <foreignObject width="600" height="200" 
+     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+      <div xmlns="http://www.w3.org/1999/xhtml">既然 V2EX 的帖子可以嵌入任意外部图片，是不是可以写个小工具，把发表的内容生成 SVG 格式的图片，然后整个嵌进来。这样之后任意时间都可以修改“帖子”的内容了:)</div>
+    </foreignObject>
+  </switch>
+</svg>
