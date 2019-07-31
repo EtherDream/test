@@ -8,9 +8,15 @@ onmessage = function(e) {
   console.log('url:', url)
 
   fetch(url, opt).then(res => {
-    parent.postMessage(res.status === 200)
+    sendMsg('result', {url, hit: true, status: res.status})
   }).catch(err => {
-    parent.postMessage(false)
+    sendMsg('result', {url, hit: false})
   })
 }
+
+function sendMsg(msg, val) {
+  parent.postMessage([msg, val], '*')
+}
+
+sendMsg('ready')
 </script></svg>
