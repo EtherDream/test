@@ -5,8 +5,6 @@ const opt = {
 }
 onmessage = function(e) {
   const url = e.data
-  console.log('url:', url)
-
   fetch(url, opt).then(res => {
     sendMsg('result', {url, hit: true, status: res.status})
   }).catch(err => {
