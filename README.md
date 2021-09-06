@@ -1,3 +1,3 @@
 # test
 
-https://github.com/EtherDream/test/blob/master/test.mp4
+https://raw.githubusercontent.com/EtherDream/test/master/test.mp4
