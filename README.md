@@ -4,7 +4,7 @@ Web2Img is a tool to bundle your web files into a single image, and extract them
 
 You can use image hosting sites as free CDNs to save bandwidth costs.
 
-![intro.png](assets/img/intro.png)
+![intro.png](https://raw.githubusercontent.com/EtherDream/web2img/master/assets/img/intro.png)
 
 ## Try
 
